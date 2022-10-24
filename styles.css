@@ -26,7 +26,7 @@ a {
 
 /* Section Styles */
 
-.main-nav {
+.tables {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -35,25 +35,25 @@ a {
   text-align: center;
 }
 
-.nav {
+.menus {
   display: flex;
   justify-content: space-around;
   font-weight: 700;
   list-style-type: none;
   margin: auto;
   }
-  .nav .name {
+  .menus .name {
     display: block;
     margin-right: auto;
     color: white;
   }
-  .nav li {
+  .menus li {
     padding: 5px 10px 10px 10px;
   }
-  .nav a {
+  .menus a {
     transition: all .5s;
   }
-  .nav a:hover {
+  .menus a:hover {
     color: rgb(76, 226, 65);
 }
 
@@ -115,7 +115,7 @@ header {
   text-align:center;
 }
 
-.card {
+.box {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -128,7 +128,7 @@ header {
   border-left:  3px solid #ccc;
   border-right: 6px solid rgb(95, 94, 94);
   }
-  .card:hover {
+  .box:hover {
     border-color: rgba(95, 250, 81, 0.601);
 }
 
@@ -148,7 +148,7 @@ ul.skills {
     background: #80672ea5;
 }
 
-.card2 {
+.box_hobbies {
     margin: 30px;
     padding: 20px 40px 40px;
     max-width: 600px;
@@ -162,10 +162,10 @@ ul.skills {
     border-right: 6px solid rgb(95, 94, 94);
     margin: 10px auto;
   }
-  .card2:hover:hover {
+  .box_hobbies:hover:hover {
     border-color: rgba(95, 250, 81, 0.601);
   }
-  .card2 li {
+  .box_hobbies li {
     border-radius: 7px;
     display: inline-block;
     background: #629c38;
@@ -283,7 +283,7 @@ a.social:hover {
     border-color:  rgb(76, 226, 65);
 }
 
-.card_experiences {
+.box_experiences {
   padding: 50px;
   max-width: 1200px;
   text-align: left;
@@ -296,7 +296,7 @@ a.social:hover {
   border-left:  3px solid #ccc;
   border-right: 6px solid rgb(95, 94, 94);
   }
-  .card_experiences:hover {
+  .box_experiences:hover {
     border-color: rgba(95, 250, 81, 0.601);
 }
 
@@ -320,7 +320,7 @@ a.social:hover {
     border-color:  rgb(76, 226, 65);
 }
 
-.card_contacts {
+.box_contacts {
   padding: 20px 40px 20px;
   max-width: 600px;
   text-align: left;
@@ -333,7 +333,7 @@ a.social:hover {
   border-right: 6px solid rgb(95, 94, 94);
   margin: 100px auto;
   }
-  .card_contacts:hover:hover {
+  .box_contacts:hover:hover {
   border-color: rgba(95, 250, 81, 0.601);
 }
 
@@ -351,24 +351,24 @@ a.social:hover {
   }  
 
   header {
-      min-height: 470px;
+    min-height: 470px;
   }
 
-  .nav {
-      max-width: 1200px;
-      padding: 0 30px;
-    }
+  .menus {
+    max-width: 1200px;
+    padding: 0 30px;
+  }
 
   main {
       padding-top: 20px;
     }
     main p {
-      line-height: 1.6em;
+    line-height: 1.6em;
   }
 
   footer {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
-    }
+  }
 }
